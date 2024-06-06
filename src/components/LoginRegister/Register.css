@@ -1,0 +1,109 @@
+.reg-page {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 19rem;
+}
+
+.juz-ma {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-self: flex-start;
+}
+
+.regtyt {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+button.zaloz {
+  color: #4d4c4c;
+  background-color: #c1ce9b;
+  font-weight: bold;
+  border: 2px solid #472a21;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.6em 1.2em;
+
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.zaloz:hover {
+  background-color: #333;
+  color: #c1ce9b;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.7);
+  border: 2px solid #472a21;
+}
+
+.form-regis {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-regis form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form-regis label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form-regis input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-regis button {
+  color: #4d4c4c;
+  background-color: #c1ce9b;
+  font-weight: bold;
+  border: 2px solid #472a21;
+  text-align: center;
+  font-size: 1.1rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-regis button:hover {
+  background-color: #333;
+  color: #c1ce9b;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.7);
+  border: 2px solid #472a21;
+}
+
+.checkbox-container {
+  display: flex;
+  font-size: 0.9em;
+  align-items: center;
+  color: #697054;
+  margin-bottom: 10px;
+}
+.checkbox-container:hover {
+  text-decoration: underline;
+  color: #363a2c;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

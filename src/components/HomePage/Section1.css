@@ -1,0 +1,48 @@
+.section1 {
+  padding: 20rem 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #35413f4d, #186d1eee);
+  color: #fff; 
+}
+
+.section1-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section1-description {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.section1-features {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #fff; 
+}
